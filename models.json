@@ -1,0 +1,39 @@
+[
+  {
+    "name": "gemini-2.0-flash",
+    "requests_per_minute": 15,
+    "requests_per_day": 1500,
+    "ranking": 1,
+    "top_k" : 30
+
+  },
+
+  {
+    "name": "gemini-2.0-flash-exp",
+    "requests_per_minute": 10,
+    "requests_per_day": 1500,
+    "ranking": 5,
+    "top_k" : 30
+  },
+  {
+    "name": "gemini-1.5-pro",
+    "requests_per_minute": 2,
+    "requests_per_day": 50,
+    "ranking": 6,
+    "top_k" : 30
+  },
+  {
+    "name": "gemini-1.5-flash",
+    "requests_per_minute": 15,
+    "requests_per_day": 1500,
+    "ranking": 7,
+    "top_k" : 30
+  },
+  {
+    "name": "gemini-1.5-flash-8b",
+    "requests_per_minute": 15,
+    "requests_per_day": 1500,
+    "ranking": 8,
+    "top_k" : 30
+  }
+]
