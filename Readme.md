@@ -55,4 +55,3 @@ This project uses libraries such as:
 
 ---
 
-This README provides a clear guide to setting up and running the project. Let me know if you need any refinements!
