@@ -40,7 +40,7 @@ This is a Retrieval-Augmented Generation (RAG) application that leverages Google
    ```
 
 3. **Model Rotation to Avoid Rate Limits**
-   The `gemini_model_rotator.py` script ensures seamless API usage by rotating the model as needed to prevent hitting the 429 rate limit. No need to run this script manually; it is called internally by the `chat.py` script.
+   The `gemini_model_rotator.py` script ensures seamless API usage by rotating the model as needed to prevent hitting the 429 rate limit. No need to run this script manually; it is called internally by the `chat.py` script. But need to pass a models.json file as provided above to run with those particular models.
 
 ## Dependencies
 This project uses libraries such as:
@@ -51,7 +51,7 @@ This project uses libraries such as:
 
 ## Notes
 - Ensure that the `.env` file is correctly set up before running the scripts.
-- Use `uv` for running scripts and managing dependencies.
+- Use `uv` to run scripts and manage dependencies.
 
 ---
 
